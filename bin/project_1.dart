@@ -18,6 +18,7 @@ class PersegiPanjang {
 
 
 void main () {
+  print('Menghitung Keliling dan Luas Perseg Panjang');
   var Panjang = 5;
   var Lebar = 3;
   var pp = PersegiPanjang(Panjang, Lebar);
