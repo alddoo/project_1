@@ -14,3 +14,15 @@ class PersegiPanjang {
     return 2 * (Panjang + Lebar);
   }
 }
+
+
+
+void main () {
+  var Panjang = 5;
+  var Lebar = 3;
+  var pp = PersegiPanjang(Panjang, Lebar);
+  var keliling = pp.kelilingPersegiPanjang();
+  var luas = pp.luasPersegiPanjang();
+  print('keliling Persegi Panjang : $keliling');
+  print('Luas Persegi Panjang : $luas');
+}
